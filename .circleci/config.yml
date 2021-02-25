@@ -46,7 +46,7 @@ jobs:
 
       - run:
           name: Node dependencies
-          command: sudo npm install -g firebase-tools --unsafe-perm
+          command: npm install firebase-tools --unsafe-perm
 
       - save_cache:
           paths:
