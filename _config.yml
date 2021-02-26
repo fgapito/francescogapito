@@ -22,15 +22,16 @@ website: francescogapito.it
 website_full: https://www.francescogapito.it
 github: fgapito
 twitter: fgapito
-tel: 
-tel_full: 
+linkedin: fgapito
+tel: +39 3474244797
+tel_full: tel:+3474244797
 google_maps: 'https://goo.gl/maps/8EkDvchZZKUo1qdn6'
 address:
   street: 
   postcode: 
   city: Bologna
   country: Italy
-google_analytics: UA-69300817-1
+google_analytics:
 
 # needed for travis-ci build
 exclude: [vendor]
