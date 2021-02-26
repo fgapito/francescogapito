@@ -27,13 +27,15 @@
     <header class="three columns">
         <img src="{{ site.baseurl }}static/img/profile.png" class="me">
         <h1>{{ site.name }}</h1>
-        <p>
+		<p>Software Architect Consultant, Agile Coach, Scrum Master, Devops Specialist, Trainer</p>
+		<p>
             <a href="{{ site.tel_full }}">{{ site.tel }}</a>
         </p>
+		
         <address>
-            <a href="{{ site.google_maps }}">
-                {{ site.address.street }}<br/>
-                {{ site.address.postcode }}<br/>
+            <a href="{{ site.google_maps }}" target="_blank">
+                <!-- {{ site.address.street }}<br/> -->
+                <!-- {{ site.address.postcode }}<br/> -->
                 {{ site.address.city }}<br/>
                 {{ site.address.country }}
             </a>
@@ -42,9 +44,9 @@
             <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
         </p>
         <p>
-            <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
-            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
-            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
+            <a href="{{ site.email_full }}" target="_blank">{{ site.email }}</a><br/>
+            <a href="https://github.com/{{ site.github }}" target="_blank"><i class="fa fa-github"></i> Github</a> /
+            <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
         </p>
     </header>
     <div class="thirteen columns clearfix">
@@ -53,7 +55,7 @@
 
     <footer class="thirteen columns">
         <p>© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
-            <a href="https://www.github.com/jekyller/vitae">vitae</a> with ♥</p>
+            <a href="https://www.github.com/jekyller/vitae" target="_blank">vitae</a> with ♥</p>
     </footer>
     </div>
 </div>
@@ -67,6 +69,30 @@
   ga('create', '{{ site.google_analytics }}', 'auto');
   ga('send', 'pageview');
 
+</script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAV5NX1-zukPg3y3wdziTdLuAgzZKCxnjg",
+    authDomain: "francescogapito-d05fc.firebaseapp.com",
+    projectId: "francescogapito-d05fc",
+    storageBucket: "francescogapito-d05fc.appspot.com",
+    messagingSenderId: "524325596660",
+    appId: "1:524325596660:web:c9ba10ad2714b2994edda1",
+    measurementId: "G-XRRVBK2B54"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
 </script>
 </body>
 </html>

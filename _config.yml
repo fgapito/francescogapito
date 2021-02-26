@@ -21,14 +21,14 @@ email_full: mailto:francesco.gapito@gmail.com
 website: francescogapito.it
 website_full: https://www.francescogapito.it
 github: fgapito
-twitter: twitter
-tel: +39 0000000000
-tel_full: tel:+390000000000
-google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+twitter: fgapito
+tel: 
+tel_full: 
+google_maps: 'https://goo.gl/maps/8EkDvchZZKUo1qdn6'
 address:
-  street: Via Fosse Ardeatine, 28
-  postcode: 40062
-  city: Molinella (BO)
+  street: 
+  postcode: 
+  city: Bologna
   country: Italy
 google_analytics: UA-69300817-1
 
