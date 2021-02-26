@@ -1,3 +1,5 @@
+---
+---
 @import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
 
 body {
@@ -5,8 +7,8 @@ body {
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
-    border-top: 5px solid #27a822;
-    border-bottom: 5px solid #27A822;
+    border-top: 5px solid #{{ site.maincolor }};
+    border-bottom: 5px solid #{{ site.maincolor }};
 }
 
 .container {
@@ -23,7 +25,7 @@ a:visited {
 }
 
 a:hover, a:focus {
-    color: #27A822;
+    color: #{{ site.maincolor }};
 }
 
 p, address {
@@ -40,7 +42,7 @@ p, address {
 }
 
 header > h1, section > h1 {
-    color: #27A822;
+    color: #{{ site.maincolor }};
 }
 
 header > h1 {
